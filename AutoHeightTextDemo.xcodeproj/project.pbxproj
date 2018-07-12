@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B750100520F700E400E10FE3 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B750100420F700E400E10FE3 /* FirstVC.m */; };
 		B75A4EE420ECDF24003998AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4EE320ECDF24003998AD /* AppDelegate.m */; };
 		B75A4EE720ECDF24003998AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4EE620ECDF24003998AD /* ViewController.m */; };
 		B75A4EEA20ECDF24003998AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75A4EE820ECDF24003998AD /* Main.storyboard */; };
 		B75A4EEC20ECDF27003998AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75A4EEB20ECDF27003998AD /* Assets.xcassets */; };
 		B75A4EEF20ECDF27003998AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75A4EED20ECDF27003998AD /* LaunchScreen.storyboard */; };
 		B75A4EF220ECDF27003998AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4EF120ECDF27003998AD /* main.m */; };
-		B75A4EFC20ECDF27003998AD /* ceshi2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4EFB20ECDF27003998AD /* ceshi2Tests.m */; };
-		B75A4F0720ECDF27003998AD /* ceshi2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4F0620ECDF27003998AD /* ceshi2UITests.m */; };
+		B75A4EFC20ECDF27003998AD /* AutoHeightTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4EFB20ECDF27003998AD /* AutoHeightTextDemoTests.m */; };
+		B75A4F0720ECDF27003998AD /* AutoHeightTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4F0620ECDF27003998AD /* AutoHeightTextDemoUITests.m */; };
+		B768545020EE0D5A00029E76 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = B768544F20EE0D5A00029E76 /* UIViewExt.m */; };
+		B77037B820EF64380041FCE6 /* AutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77037B720EF64380041FCE6 /* AutoHeightTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +26,21 @@
 			containerPortal = B75A4ED720ECDF24003998AD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B75A4EDE20ECDF24003998AD;
-			remoteInfo = ceshi2;
+			remoteInfo = AutoHeightTextDemo;
 		};
 		B75A4F0320ECDF27003998AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B75A4ED720ECDF24003998AD /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B75A4EDE20ECDF24003998AD;
-			remoteInfo = ceshi2;
+			remoteInfo = AutoHeightTextDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B75A4EDF20ECDF24003998AD /* ceshi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B750100320F700E400E10FE3 /* FirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		B750100420F700E400E10FE3 /* FirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		B75A4EDF20ECDF24003998AD /* AutoHeightTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoHeightTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75A4EE220ECDF24003998AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B75A4EE320ECDF24003998AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B75A4EE520ECDF24003998AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -45,12 +50,16 @@
 		B75A4EEE20ECDF27003998AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B75A4EF020ECDF27003998AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B75A4EF120ECDF27003998AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B75A4EF720ECDF27003998AD /* ceshi2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshi2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75A4EFB20ECDF27003998AD /* ceshi2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshi2Tests.m; sourceTree = "<group>"; };
+		B75A4EF720ECDF27003998AD /* AutoHeightTextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoHeightTextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75A4EFB20ECDF27003998AD /* AutoHeightTextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHeightTextDemoTests.m; sourceTree = "<group>"; };
 		B75A4EFD20ECDF27003998AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B75A4F0220ECDF27003998AD /* ceshi2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshi2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75A4F0620ECDF27003998AD /* ceshi2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshi2UITests.m; sourceTree = "<group>"; };
+		B75A4F0220ECDF27003998AD /* AutoHeightTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoHeightTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75A4F0620ECDF27003998AD /* AutoHeightTextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHeightTextDemoUITests.m; sourceTree = "<group>"; };
 		B75A4F0820ECDF27003998AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B768544E20EE0D5A00029E76 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		B768544F20EE0D5A00029E76 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		B77037B620EF64380041FCE6 /* AutoHeightTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoHeightTextView.h; sourceTree = "<group>"; };
+		B77037B720EF64380041FCE6 /* AutoHeightTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHeightTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +90,9 @@
 		B75A4ED620ECDF24003998AD = {
 			isa = PBXGroup;
 			children = (
-				B75A4EE120ECDF24003998AD /* ceshi2 */,
-				B75A4EFA20ECDF27003998AD /* ceshi2Tests */,
-				B75A4F0520ECDF27003998AD /* ceshi2UITests */,
+				B75A4EE120ECDF24003998AD /* AutoHeightTextDemo */,
+				B75A4EFA20ECDF27003998AD /* AutoHeightTextDemoTests */,
+				B75A4F0520ECDF27003998AD /* AutoHeightTextDemoUITests */,
 				B75A4EE020ECDF24003998AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,18 +100,22 @@
 		B75A4EE020ECDF24003998AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B75A4EDF20ECDF24003998AD /* ceshi2.app */,
-				B75A4EF720ECDF27003998AD /* ceshi2Tests.xctest */,
-				B75A4F0220ECDF27003998AD /* ceshi2UITests.xctest */,
+				B75A4EDF20ECDF24003998AD /* AutoHeightTextDemo.app */,
+				B75A4EF720ECDF27003998AD /* AutoHeightTextDemoTests.xctest */,
+				B75A4F0220ECDF27003998AD /* AutoHeightTextDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B75A4EE120ECDF24003998AD /* ceshi2 */ = {
+		B75A4EE120ECDF24003998AD /* AutoHeightTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B768544E20EE0D5A00029E76 /* UIViewExt.h */,
+				B768544F20EE0D5A00029E76 /* UIViewExt.m */,
 				B75A4EE220ECDF24003998AD /* AppDelegate.h */,
 				B75A4EE320ECDF24003998AD /* AppDelegate.m */,
+				B750100320F700E400E10FE3 /* FirstVC.h */,
+				B750100420F700E400E10FE3 /* FirstVC.m */,
 				B75A4EE520ECDF24003998AD /* ViewController.h */,
 				B75A4EE620ECDF24003998AD /* ViewController.m */,
 				B75A4EE820ECDF24003998AD /* Main.storyboard */,
@@ -110,34 +123,36 @@
 				B75A4EED20ECDF27003998AD /* LaunchScreen.storyboard */,
 				B75A4EF020ECDF27003998AD /* Info.plist */,
 				B75A4EF120ECDF27003998AD /* main.m */,
+				B77037B620EF64380041FCE6 /* AutoHeightTextView.h */,
+				B77037B720EF64380041FCE6 /* AutoHeightTextView.m */,
 			);
-			path = ceshi2;
+			path = AutoHeightTextDemo;
 			sourceTree = "<group>";
 		};
-		B75A4EFA20ECDF27003998AD /* ceshi2Tests */ = {
+		B75A4EFA20ECDF27003998AD /* AutoHeightTextDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				B75A4EFB20ECDF27003998AD /* ceshi2Tests.m */,
+				B75A4EFB20ECDF27003998AD /* AutoHeightTextDemoTests.m */,
 				B75A4EFD20ECDF27003998AD /* Info.plist */,
 			);
-			path = ceshi2Tests;
+			path = AutoHeightTextDemoTests;
 			sourceTree = "<group>";
 		};
-		B75A4F0520ECDF27003998AD /* ceshi2UITests */ = {
+		B75A4F0520ECDF27003998AD /* AutoHeightTextDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B75A4F0620ECDF27003998AD /* ceshi2UITests.m */,
+				B75A4F0620ECDF27003998AD /* AutoHeightTextDemoUITests.m */,
 				B75A4F0820ECDF27003998AD /* Info.plist */,
 			);
-			path = ceshi2UITests;
+			path = AutoHeightTextDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B75A4EDE20ECDF24003998AD /* ceshi2 */ = {
+		B75A4EDE20ECDF24003998AD /* AutoHeightTextDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B75A4F0B20ECDF27003998AD /* Build configuration list for PBXNativeTarget "ceshi2" */;
+			buildConfigurationList = B75A4F0B20ECDF27003998AD /* Build configuration list for PBXNativeTarget "AutoHeightTextDemo" */;
 			buildPhases = (
 				B75A4EDB20ECDF24003998AD /* Sources */,
 				B75A4EDC20ECDF24003998AD /* Frameworks */,
@@ -147,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = ceshi2;
-			productName = ceshi2;
-			productReference = B75A4EDF20ECDF24003998AD /* ceshi2.app */;
+			name = AutoHeightTextDemo;
+			productName = AutoHeightTextDemo;
+			productReference = B75A4EDF20ECDF24003998AD /* AutoHeightTextDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B75A4EF620ECDF27003998AD /* ceshi2Tests */ = {
+		B75A4EF620ECDF27003998AD /* AutoHeightTextDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B75A4F0E20ECDF27003998AD /* Build configuration list for PBXNativeTarget "ceshi2Tests" */;
+			buildConfigurationList = B75A4F0E20ECDF27003998AD /* Build configuration list for PBXNativeTarget "AutoHeightTextDemoTests" */;
 			buildPhases = (
 				B75A4EF320ECDF27003998AD /* Sources */,
 				B75A4EF420ECDF27003998AD /* Frameworks */,
@@ -165,14 +180,14 @@
 			dependencies = (
 				B75A4EF920ECDF27003998AD /* PBXTargetDependency */,
 			);
-			name = ceshi2Tests;
-			productName = ceshi2Tests;
-			productReference = B75A4EF720ECDF27003998AD /* ceshi2Tests.xctest */;
+			name = AutoHeightTextDemoTests;
+			productName = AutoHeightTextDemoTests;
+			productReference = B75A4EF720ECDF27003998AD /* AutoHeightTextDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B75A4F0120ECDF27003998AD /* ceshi2UITests */ = {
+		B75A4F0120ECDF27003998AD /* AutoHeightTextDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B75A4F1120ECDF27003998AD /* Build configuration list for PBXNativeTarget "ceshi2UITests" */;
+			buildConfigurationList = B75A4F1120ECDF27003998AD /* Build configuration list for PBXNativeTarget "AutoHeightTextDemoUITests" */;
 			buildPhases = (
 				B75A4EFE20ECDF27003998AD /* Sources */,
 				B75A4EFF20ECDF27003998AD /* Frameworks */,
@@ -183,9 +198,9 @@
 			dependencies = (
 				B75A4F0420ECDF27003998AD /* PBXTargetDependency */,
 			);
-			name = ceshi2UITests;
-			productName = ceshi2UITests;
-			productReference = B75A4F0220ECDF27003998AD /* ceshi2UITests.xctest */;
+			name = AutoHeightTextDemoUITests;
+			productName = AutoHeightTextDemoUITests;
+			productReference = B75A4F0220ECDF27003998AD /* AutoHeightTextDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B75A4EDA20ECDF24003998AD /* Build configuration list for PBXProject "ceshi2" */;
+			buildConfigurationList = B75A4EDA20ECDF24003998AD /* Build configuration list for PBXProject "AutoHeightTextDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +238,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B75A4EDE20ECDF24003998AD /* ceshi2 */,
-				B75A4EF620ECDF27003998AD /* ceshi2Tests */,
-				B75A4F0120ECDF27003998AD /* ceshi2UITests */,
+				B75A4EDE20ECDF24003998AD /* AutoHeightTextDemo */,
+				B75A4EF620ECDF27003998AD /* AutoHeightTextDemoTests */,
+				B75A4F0120ECDF27003998AD /* AutoHeightTextDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77037B820EF64380041FCE6 /* AutoHeightTextView.m in Sources */,
+				B750100520F700E400E10FE3 /* FirstVC.m in Sources */,
+				B768545020EE0D5A00029E76 /* UIViewExt.m in Sources */,
 				B75A4EE720ECDF24003998AD /* ViewController.m in Sources */,
 				B75A4EF220ECDF27003998AD /* main.m in Sources */,
 				B75A4EE420ECDF24003998AD /* AppDelegate.m in Sources */,
@@ -272,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75A4EFC20ECDF27003998AD /* ceshi2Tests.m in Sources */,
+				B75A4EFC20ECDF27003998AD /* AutoHeightTextDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75A4F0720ECDF27003998AD /* ceshi2UITests.m in Sources */,
+				B75A4F0720ECDF27003998AD /* AutoHeightTextDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		B75A4EF920ECDF27003998AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B75A4EDE20ECDF24003998AD /* ceshi2 */;
+			target = B75A4EDE20ECDF24003998AD /* AutoHeightTextDemo */;
 			targetProxy = B75A4EF820ECDF27003998AD /* PBXContainerItemProxy */;
 		};
 		B75A4F0420ECDF27003998AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B75A4EDE20ECDF24003998AD /* ceshi2 */;
+			target = B75A4EDE20ECDF24003998AD /* AutoHeightTextDemo */;
 			targetProxy = B75A4F0320ECDF27003998AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,14 +451,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ceshi2/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ECXU495BLB;
+				INFOPLIST_FILE = AutoHeightTextDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2121.ceshi2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzsdfeizhubaoxian.enterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6f01b4dc-3bb0-4ed6-908b-4319cbbb24bb";
+				PROVISIONING_PROFILE_SPECIFIER = FZSD_FEIZHUBAOXIAN_DEV;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -449,14 +470,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ceshi2/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AutoHeightTextDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2121.ceshi2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fzsdfeizhubaoxian.enterprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -466,16 +489,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ceshi2Tests/Info.plist;
+				INFOPLIST_FILE = AutoHeightTextDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2121.ceshi2Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.AutoHeightTextDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshi2.app/ceshi2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoHeightTextDemo.app/AutoHeightTextDemo";
 			};
 			name = Debug;
 		};
@@ -484,16 +507,16 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ceshi2Tests/Info.plist;
+				INFOPLIST_FILE = AutoHeightTextDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2121.ceshi2Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.AutoHeightTextDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshi2.app/ceshi2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoHeightTextDemo.app/AutoHeightTextDemo";
 			};
 			name = Release;
 		};
@@ -501,16 +524,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ceshi2UITests/Info.plist;
+				INFOPLIST_FILE = AutoHeightTextDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2121.ceshi2UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.AutoHeightTextDemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ceshi2;
+				TEST_TARGET_NAME = AutoHeightTextDemo;
 			};
 			name = Debug;
 		};
@@ -518,23 +541,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ceshi2UITests/Info.plist;
+				INFOPLIST_FILE = AutoHeightTextDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2121.ceshi2UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2121.AutoHeightTextDemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ceshi2;
+				TEST_TARGET_NAME = AutoHeightTextDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B75A4EDA20ECDF24003998AD /* Build configuration list for PBXProject "ceshi2" */ = {
+		B75A4EDA20ECDF24003998AD /* Build configuration list for PBXProject "AutoHeightTextDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B75A4F0920ECDF27003998AD /* Debug */,
@@ -543,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B75A4F0B20ECDF27003998AD /* Build configuration list for PBXNativeTarget "ceshi2" */ = {
+		B75A4F0B20ECDF27003998AD /* Build configuration list for PBXNativeTarget "AutoHeightTextDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B75A4F0C20ECDF27003998AD /* Debug */,
@@ -552,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B75A4F0E20ECDF27003998AD /* Build configuration list for PBXNativeTarget "ceshi2Tests" */ = {
+		B75A4F0E20ECDF27003998AD /* Build configuration list for PBXNativeTarget "AutoHeightTextDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B75A4F0F20ECDF27003998AD /* Debug */,
@@ -561,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B75A4F1120ECDF27003998AD /* Build configuration list for PBXNativeTarget "ceshi2UITests" */ = {
+		B75A4F1120ECDF27003998AD /* Build configuration list for PBXNativeTarget "AutoHeightTextDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B75A4F1220ECDF27003998AD /* Debug */,
