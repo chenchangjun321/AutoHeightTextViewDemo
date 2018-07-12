@@ -52,8 +52,6 @@
 
 -(void)layoutSubviews
 {
-    CGFloat width = self.frame.size.width;
-    CGFloat height =self.frame.size.height;
     if(self.layoutTimes ==0){
         self.constwidth = self.frame.size.width;
         self.minHeight = self.frame.size.height;
