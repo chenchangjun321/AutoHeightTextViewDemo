@@ -16,6 +16,9 @@
 		B75A4EF220ECDF27003998AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4EF120ECDF27003998AD /* main.m */; };
 		B75A4EFC20ECDF27003998AD /* AutoHeightTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4EFB20ECDF27003998AD /* AutoHeightTextDemoTests.m */; };
 		B75A4F0720ECDF27003998AD /* AutoHeightTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B75A4F0620ECDF27003998AD /* AutoHeightTextDemoUITests.m */; };
+		B75FD3B420F8A4AD00BE747F /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B75FD3B320F8A4AD00BE747F /* MainVC.m */; };
+		B75FD3BB20F8AA9600BE747F /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B75FD3B920F8AA9600BE747F /* SecondVC.m */; };
+		B75FD3BC20F8AA9600BE747F /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75FD3BA20F8AA9600BE747F /* SecondVC.xib */; };
 		B768545020EE0D5A00029E76 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = B768544F20EE0D5A00029E76 /* UIViewExt.m */; };
 		B77037B820EF64380041FCE6 /* AutoHeightTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77037B720EF64380041FCE6 /* AutoHeightTextView.m */; };
 /* End PBXBuildFile section */
@@ -56,6 +59,11 @@
 		B75A4F0220ECDF27003998AD /* AutoHeightTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoHeightTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B75A4F0620ECDF27003998AD /* AutoHeightTextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoHeightTextDemoUITests.m; sourceTree = "<group>"; };
 		B75A4F0820ECDF27003998AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B75FD3B220F8A4AD00BE747F /* MainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		B75FD3B320F8A4AD00BE747F /* MainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		B75FD3B820F8AA9600BE747F /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		B75FD3B920F8AA9600BE747F /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		B75FD3BA20F8AA9600BE747F /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
 		B768544E20EE0D5A00029E76 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		B768544F20EE0D5A00029E76 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		B77037B620EF64380041FCE6 /* AutoHeightTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoHeightTextView.h; sourceTree = "<group>"; };
@@ -116,6 +124,9 @@
 				B75A4EE320ECDF24003998AD /* AppDelegate.m */,
 				B750100320F700E400E10FE3 /* FirstVC.h */,
 				B750100420F700E400E10FE3 /* FirstVC.m */,
+				B75FD3B820F8AA9600BE747F /* SecondVC.h */,
+				B75FD3B920F8AA9600BE747F /* SecondVC.m */,
+				B75FD3BA20F8AA9600BE747F /* SecondVC.xib */,
 				B75A4EE520ECDF24003998AD /* ViewController.h */,
 				B75A4EE620ECDF24003998AD /* ViewController.m */,
 				B75A4EE820ECDF24003998AD /* Main.storyboard */,
@@ -125,6 +136,8 @@
 				B75A4EF120ECDF27003998AD /* main.m */,
 				B77037B620EF64380041FCE6 /* AutoHeightTextView.h */,
 				B77037B720EF64380041FCE6 /* AutoHeightTextView.m */,
+				B75FD3B220F8A4AD00BE747F /* MainVC.h */,
+				B75FD3B320F8A4AD00BE747F /* MainVC.m */,
 			);
 			path = AutoHeightTextDemo;
 			sourceTree = "<group>";
@@ -252,6 +265,7 @@
 			files = (
 				B75A4EEF20ECDF27003998AD /* LaunchScreen.storyboard in Resources */,
 				B75A4EEC20ECDF27003998AD /* Assets.xcassets in Resources */,
+				B75FD3BC20F8AA9600BE747F /* SecondVC.xib in Resources */,
 				B75A4EEA20ECDF24003998AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +293,8 @@
 			files = (
 				B77037B820EF64380041FCE6 /* AutoHeightTextView.m in Sources */,
 				B750100520F700E400E10FE3 /* FirstVC.m in Sources */,
+				B75FD3BB20F8AA9600BE747F /* SecondVC.m in Sources */,
+				B75FD3B420F8A4AD00BE747F /* MainVC.m in Sources */,
 				B768545020EE0D5A00029E76 /* UIViewExt.m in Sources */,
 				B75A4EE720ECDF24003998AD /* ViewController.m in Sources */,
 				B75A4EF220ECDF27003998AD /* main.m in Sources */,

@@ -20,7 +20,7 @@
 -(AutoHeightTextView *)mTextView
 {
     if(!_mTextView){
-        _mTextView = [[AutoHeightTextView alloc]initWithMinHeight:50 andConstWidth:300 andOrigin:CGPointMake(0, 50)];
+        _mTextView = [[AutoHeightTextView alloc]initWithMinHeight:50 andConstWidth:300 andOrigin:CGPointMake(0, 200)];
         _mTextView.backgroundColor = [UIColor greenColor];
     }
     return _mTextView;
@@ -28,6 +28,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.mTextView];
 }
 

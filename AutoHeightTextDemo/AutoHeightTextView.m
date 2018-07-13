@@ -27,7 +27,6 @@
 -(void)awakeFromNib
 {
     [super awakeFromNib];
-    self.delegate = self;
     [self initData];
     self.layoutTimes = 0;
 }
@@ -45,6 +44,7 @@
 
 -(void)initData
 {
+    self.delegate = self;
     [self addObserver:self forKeyPath:@"text" options:NSKeyValueObservingOptionNew context:nil];
     self.maxNumber = 0;
     self.layoutTimes = 0;
@@ -55,6 +55,7 @@
     if(self.layoutTimes ==0){
         self.constwidth = self.frame.size.width;
         self.minHeight = self.frame.size.height;
+        
     }
     self.layoutTimes ++;
 }
