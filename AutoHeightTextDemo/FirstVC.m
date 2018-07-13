@@ -11,7 +11,7 @@
 
 @interface FirstVC ()
 
-@property (nonatomic,strong)  AutoHeightTextView  *  mTextView ;
+@property (nonatomic,strong)  AutoHeightTextView  *  mTextView;
 
 @end
 
